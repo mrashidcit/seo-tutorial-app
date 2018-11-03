@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Seo Tutorial</string>
+
+    <string name="Textview">
+        <b>
+            An internet-based tool that searches AN index of documents for a specific term, phrase or text nominal by the user. ordinarily accustomed ask massive web-based search engines that search through billions of pages on the web.\n</b>
+Different than a Directory\n
+        <b>
+Common Characteristics:\n
+        </b>
+Spider, Indexer, Database, Algorithm\n
+Find matching documents and show them per connexion\n
+Frequent updates to documents searched and ranking formula\n
+Strive to provide “better”, additional relevant results than competitors.\n
+    </string>
+
+</resources>

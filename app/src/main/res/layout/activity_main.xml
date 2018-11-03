@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingTop="96dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:ignore="UselessLeaf,UselessParent">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize">
+
+
+            <Button
+                android:onClick="button"
+                android:paddingRight="109dp"
+                android:id="@+id/button"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="what is search engine"
+                android:textSize="23dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <Button
+                android:paddingRight="109dp"
+                android:id="@+id/button1"
+                android:onClick="button1"
+                android:layout_width="450dp"
+                android:layout_height="90dp"
+                android:text="Example Of Popular Search Engines"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <Button
+                android:paddingRight="109dp"
+                android:id="@+id/button2"
+                android:onClick="button2"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="How Do Search Engines Work?"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <Button
+                android:paddingRight="109dp"
+                android:id="@+id/button3"
+                android:onClick="button3"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="How Do Search Engines Work?"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <Button
+                android:onClick="button4"
+                android:paddingRight="109dp"
+                android:id="@+id/button4"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="Why is programme selling important?"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <Button
+                android:onClick="button5"
+                android:paddingRight="109dp"
+                android:id="@+id/button5"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="What is SEO (Search Engine Optimization?"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <Button
+                android:onClick="button6"
+                android:paddingRight="109dp"
+                android:id="@+id/button6"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="On-page &amp; Off-page ranking factors"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <Button
+                android:onClick="button7"
+                android:paddingRight="109dp"
+                android:id="@+id/button7"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="What is SEO (Search Engine Optimization?"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <Button
+                android:onClick="button8"
+                android:paddingRight="109dp"
+                android:id="@+id/button8"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="What is Organic &amp; Non-Organic Search?"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <Button
+                android:onClick="button9"
+                android:paddingRight="109dp"
+                android:id="@+id/button9"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="What is Organic &amp; Non-Organic Search?"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <Button
+                android:onClick="button10"
+                android:paddingRight="109dp"
+                android:id="@+id/button10"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="What is an SEO Algorithm?"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <Button
+                android:onClick="button11"
+                android:paddingRight="109dp"
+                android:id="@+id/button11"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="Steps to developing a good SEO strategy"
+                android:textSize="18dp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <Button
+                android:onClick="button12"
+                android:paddingRight="109dp"
+                android:id="@+id/button12"
+                android:layout_width="450dp"
+                android:layout_height="70dp"
+                android:text="PPC vs Organic SEO"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

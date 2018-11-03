@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F08080"
+    tools:context=".Sem1Activity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:ignore="UselessParent"
+        android:layout_alignParentLeft="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            tools:ignore="ScrollViewSize,UselessLeaf">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginBottom="8dp"
+                android:background="#FFE4B5"
+                android:text="What is Search Engine?"
+                android:textSize="22sp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <TextView
+                android:id="@+id/textview"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:textSize="22dp"
+                android:background="#A9DFBF"
+                android:text="@string/Textview"
+                tools:ignore="SpUsage" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="34dp"
+                android:layout_marginBottom="8dp"
+                android:background="#FFE4B5"
+                android:text="Example of Popular Search Engine"
+                android:textSize="22sp"
+                tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="34dp"
+                android:layout_marginBottom="8dp"
+                android:background="#FFE4B5"
+                android:text="Example of Popular Search Engine"
+                android:textSize="22sp"  tools:ignore="HardcodedText,RtlHardcoded,RtlSymmetry,SpUsage" />
+
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/yandex"
+                android:scaleType="fitXY"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/archive"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/duck"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/google"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/alpha"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:src="@drawable/aol"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/ask"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/baidu"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/bing"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="355dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/yahoo"
+                tools:ignore="ContentDescription" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
